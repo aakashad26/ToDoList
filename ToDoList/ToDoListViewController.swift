@@ -5,7 +5,7 @@
 //  Created by Aakash Adhikari on 6/3/20.
 //  Copyright © 2020 Aakash Adhikari. All rights reserved.
 //  CRUD
-//  Create, Read, update Destroy
+//  Create, Read, Update, Destroy
 
 import UIKit
 import CoreData
@@ -16,7 +16,7 @@ class ToDoListViewController: UITableViewController{
     //    @FetchRequest(entiry: Country.entiry(), sortDescriptors: []) var countries: FetchResults<Country>
     
     // var itemArray = ["Buy Slippers", "Buy Wet Suit", "Buy Surf Board"]
-    var itemArray = [String]()
+    var itemArray: [String] = []
     // let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
@@ -294,6 +294,8 @@ extension ToDoListViewController {
         }
         
     }
+    
+    //Changes made
     
     
 }
